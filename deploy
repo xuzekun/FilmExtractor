@@ -1,0 +1,1 @@
+gunicorn filmExtractor:app -p app.pid -b 0.0.0.0:46464 
